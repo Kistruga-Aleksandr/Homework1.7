@@ -21,7 +21,9 @@ public class Main {
     }
     public static void task3() {
         String fullName1 = "Иванов Семён Семёнович.";
+        if (fullName1.contains("ё")){
         String fullName2 = fullName1.replace('ё', 'е');
         System.out.println("Данные ФИО сотрудника - " + fullName2);
+    }
     }
 }
